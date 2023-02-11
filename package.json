@@ -1,24 +1,18 @@
 {
-  "name": "backend_nngu",
+  "name": "myversion",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SergeiNevostruev/induction_course_backend.git"
+    "bracket": "node src/bracket.js",
+    "csv": "node src/csvParser.js",
+    "logger": "node src/logger.js",
+    "json": "node src/jsonAdd.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SergeiNevostruev/induction_course_backend/issues"
-  },
-  "homepage": "https://github.com/SergeiNevostruev/induction_course_backend#readme",
   "devDependencies": {
     "nodemon": "^2.0.20"
   }
