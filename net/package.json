@@ -1,0 +1,17 @@
+{
+  "name": "net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "netServer": "node scr/netServer.js",
+    "netClient": "node scr/netClient.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
