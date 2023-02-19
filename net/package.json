@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "netServer": "node scr/netServer.js",
-    "netClient": "node scr/netClient.js"
+    "netClient": "node scr/netClient.js",
+    "http": "nodemon scr/http.js"
   },
   "keywords": [],
   "author": "",
